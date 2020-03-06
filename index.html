@@ -2,14 +2,22 @@
 <html>
 	<head>
 <style>
+@font-face {
+    font-family: 'comic_sans_msregular';
+    src: url('comicsans/comic-webfont.woff2') format('woff2'),
+         url('comicsans/comic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 @import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
-	.tradewindheader {
-		font-family: 'Trade Winds', monospace;
+<!-- breAK -->
+	.comicsans {
+		font-family: comic_sans_msregular, monospace;
 	}
 </style>
 	</head>
 		<body>
-		<h1 class="tradewindheader"> Header index HTML btw not the other one </h1>
+		<h1 class="comicsans"> Header index HTML btw not the other one </h1>
 		<p>
 		testing paragraph yo
 		</p>
