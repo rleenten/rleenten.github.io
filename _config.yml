@@ -1,1 +1,2 @@
-{% include include_all_files.html folder="comicsans" %}
+include: include_all_files.html folder="comicsans"
+timezone: America/California
