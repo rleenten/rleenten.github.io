@@ -1,1 +1,1 @@
-{% include: _includes/comicsans/ %}
+{% include include_all_files.html folder="comicsans" %}
